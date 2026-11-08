@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "id": "positive-product",
+      "text": "Analyze this product's target buyer and sales stage",
+      "expected": "trigger"
+    },
+    {
+      "id": "positive-gap",
+      "text": "Find material evidence gaps before positioning a product",
+      "expected": "trigger"
+    },
+    {
+      "id": "negative-code",
+      "text": "Fix the TypeScript product list component",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "negative-copy",
+      "text": "Rewrite this already approved social post",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "positive-zh",
+      "text": "分析这个产品的目标客户和价值证据，销售前缺什么",
+      "expected": "trigger"
+    },
+    {
+      "id": "negative-zh",
+      "text": "修改 TypeScript 产品列表组件，不做营销分析",
+      "expected": "no-trigger"
+    }
+  ]
+}

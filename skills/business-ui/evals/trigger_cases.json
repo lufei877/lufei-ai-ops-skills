@@ -1,0 +1,84 @@
+{
+  "cases": [
+    {
+      "id": "zh-list",
+      "text": "新增商品列表页，把销量佣金价格分别列出来，方便比较和操作",
+      "expected": "trigger"
+    },
+    {
+      "id": "zh-header",
+      "text": "选品表格的表头可以点击排序，再次点击要遵循这张表的恢复规则",
+      "expected": "trigger"
+    },
+    {
+      "id": "zh-selection",
+      "text": "订单表格勾选后排序会选错对象，修复批量选择与筛选变化的交互",
+      "expected": "trigger"
+    },
+    {
+      "id": "zh-queue",
+      "text": "调整任务队列，后台运行时仍能切页，失败要有简短摘要和重试入口",
+      "expected": "trigger"
+    },
+    {
+      "id": "zh-refresh",
+      "text": "运营工作台刷新时保留当前筛选与滚动位置，逐条补充结果",
+      "expected": "trigger"
+    },
+    {
+      "id": "zh-density",
+      "text": "商品列表压缩行高和间距，关键指标直接可见，长分析理由展开查看",
+      "expected": "trigger"
+    },
+    {
+      "id": "en-table",
+      "text": "Implement an Excel-like business UI table with sortable headers and stable batch selection",
+      "expected": "trigger"
+    },
+    {
+      "id": "en-review",
+      "text": "Review filters and task queues in a data-dense operations workspace",
+      "expected": "trigger"
+    },
+    {
+      "id": "zh-backend",
+      "text": "优化数据库查询索引，检查 SQL 执行计划",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "zh-xlsx",
+      "text": "生成一个 Excel 工作簿，写入公式并导出 xlsx 文件",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "en-xlsx",
+      "text": "Convert this CSV file to an Excel workbook with formulas",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "zh-marketing",
+      "text": "设计营销落地页，突出产品卖点与购买入口",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "zh-content",
+      "text": "调整公众号文章排版和封面图片",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "en-backend",
+      "text": "Implement a server-side table sorting endpoint without any UI changes",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "zh-neighbor",
+      "text": "后端商品列表接口增加筛选参数，先不要改界面",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "zh-negation",
+      "text": "不要调整任务队列 UI，只修后台 worker 的数据库重试逻辑",
+      "expected": "no-trigger"
+    }
+  ]
+}

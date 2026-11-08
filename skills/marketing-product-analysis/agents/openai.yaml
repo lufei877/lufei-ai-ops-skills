@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品营销分析"
+  short_description: "分析产品阶段、买家、证据边界与营销准备度"
+  default_prompt: "Use $marketing-product-analysis to analyze this product and identify only material evidence gaps."

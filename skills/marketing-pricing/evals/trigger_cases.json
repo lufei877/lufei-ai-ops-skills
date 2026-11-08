@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "id": "positive-price",
+      "text": "Design monthly quarterly annual pricing for this product",
+      "expected": "trigger"
+    },
+    {
+      "id": "positive-margin",
+      "text": "Check supplier margin and pricing exceptions",
+      "expected": "trigger"
+    },
+    {
+      "id": "negative-copy",
+      "text": "Write a product launch caption",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "negative-metrics",
+      "text": "Review last week's reach and engagement metrics",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "positive-zh",
+      "text": "制定月卡季卡年卡定价和套餐权益",
+      "expected": "trigger"
+    },
+    {
+      "id": "negative-zh",
+      "text": "修复报价页面的 CSS 对齐，不做套餐调整",
+      "expected": "no-trigger"
+    }
+  ]
+}

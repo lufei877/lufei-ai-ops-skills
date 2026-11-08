@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "id": "positive-review",
+      "text": "Review publication metrics and define the next test",
+      "expected": "trigger"
+    },
+    {
+      "id": "positive-funnel",
+      "text": "Locate the funnel constraint from sales and retention evidence",
+      "expected": "trigger"
+    },
+    {
+      "id": "negative-publish",
+      "text": "Publish a new campaign asset",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "negative-price",
+      "text": "Set the annual plan price",
+      "expected": "no-trigger"
+    },
+    {
+      "id": "positive-zh",
+      "text": "根据实际营销数据复盘漏斗转化成本",
+      "expected": "trigger"
+    },
+    {
+      "id": "negative-zh",
+      "text": "修复 Node 构建依赖解析",
+      "expected": "no-trigger"
+    }
+  ]
+}

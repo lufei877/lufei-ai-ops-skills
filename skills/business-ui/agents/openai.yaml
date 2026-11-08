@@ -1,0 +1,6 @@
+interface:
+  display_name: "业务 UI 模式"
+  short_description: "自动应用业务表格、筛选、队列与后台工作台交互规范"
+  default_prompt: "Use $business-ui to design, implement, or review this business page with its existing components and verified interaction contracts."
+policy:
+  allow_implicit_invocation: true

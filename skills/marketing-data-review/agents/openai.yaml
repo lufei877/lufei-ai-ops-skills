@@ -1,0 +1,4 @@
+interface:
+  display_name: "营销数据复盘"
+  short_description: "复盘发布数据并定位漏斗约束与下一轮测试"
+  default_prompt: "Use $marketing-data-review to review publication metrics and define the next testable iteration."

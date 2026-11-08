@@ -1,0 +1,4 @@
+interface:
+  display_name: "营销定价"
+  short_description: "基于市场证据设计、审批并同步产品价格体系"
+  default_prompt: "Use $marketing-pricing to design an evidence-backed product price and sync the approved result to the marketing workbench."
