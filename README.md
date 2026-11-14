@@ -18,6 +18,7 @@ WorkBuddy、Claude Code、Codex 都能用。现在只需安装一个 `ecom-ops-c
 | 07 | [营销数据复盘](ecom-ops-collection/modules/07-marketing-data-review) | 复盘发布、咨询、销售、成本数据，找到当前卡点和下一项测试 | 发完内容、上完新要复盘的 |
 | 08 | [业务 UI](ecom-ops-collection/modules/08-business-ui) | 设计商品列表、订单表格、投放计划和运营工作台 | 想自己做电商软件的 |
 | 09 | [Windows 桌面运营软件架构](ecom-ops-collection/modules/09-desktop-operations-architecture) | 划分 UI、service、worker、队列、数据和迁移边界 | 想自己做电商软件的，进阶 |
+| 10 | [差评和提问挖卖点](ecom-ops-collection/modules/10-review-mining) | 从差评和问大家或评论提问中找出买家最担心的 3 件事 | 要整理评价、找卖点和写回应的 |
 
 ## 怎么装
 
