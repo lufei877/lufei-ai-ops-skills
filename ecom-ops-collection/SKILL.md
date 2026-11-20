@@ -1,6 +1,6 @@
 ---
 name: ecom-ops-collection
-description: "电商运营 Skill 合集入口：先建店铺档案，再根据用户说的需求路由到 9 个运营模块；不直接执行模块工作，也不替用户猜缺失资料。"
+description: "电商运营 Skill 合集入口：先建店铺档案，再根据用户说的需求路由到 10 个运营模块；不直接执行模块工作，也不替用户猜缺失资料。"
 ---
 
 # 电商运营 Skill 合集
@@ -26,7 +26,7 @@ description: "电商运营 Skill 合集入口：先建店铺档案，再根据�
 | “复盘发布、咨询、销售、成本数据，找下一步测试” | `modules/07-marketing-data-review/` |
 | “设计商品列表、订单表格、投放计划这类业务界面” | `modules/08-business-ui/` |
 | “设计 Windows 桌面运营软件的 UI、任务队列和数据边界” | `modules/09-desktop-operations-architecture/` |
-| “帮我从差评里挖卖点”“买家最担心什么”“问大家怎么用” | `modules/10-review-mining/` |
+| “给你一个商品链接，帮我看评价”“帮我从差评里挖卖点”“买家最担心什么”“问大家怎么用” | `modules/10-review-mining/` |
 | “我不知道该用哪个”或需求同时跨多个模块 | 先给 2～4 个候选，让用户选择 |
 
 ## 执行约定

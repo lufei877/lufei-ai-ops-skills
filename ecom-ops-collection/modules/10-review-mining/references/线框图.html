@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang='zh-CN'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>差评和问大家挖卖点 · 线框图</title><style>
+:root{--bg:#f9f9f7;--surf:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--mut:#898781;--grid:#e1e0d9;--blue:#2a78d6;--orange:#eb6834;--yellow:#eda100;--aqua:#1baf7a;--gray:#c3c2b7}
+@media(prefers-color-scheme:dark){:root{--bg:#0d0d0d;--surf:#1a1a19;--ink:#f0efec;--ink2:#c3c2b7;--mut:#a09e97;--grid:#2c2c2a;--blue:#3987e5;--orange:#d95926;--yellow:#c98500;--aqua:#199e70;--gray:#383835}}
+*{box-sizing:border-box}html,body{overflow-x:hidden}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.65 system-ui,-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif}
+.wrap{max-width:780px;margin:0 auto;padding:16px}h1{font-size:21px;margin:6px 0}h2{font-size:16px;margin:0 0 8px}.sub{color:var(--mut);font-size:12px}
+.card{background:var(--surf);border:1px solid var(--grid);border-radius:12px;padding:16px;margin:14px 0}
+.step{display:flex;gap:10px;align-items:flex-start}.num{flex:none;width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700}
+.box{flex:1;min-width:0;border:1.5px dashed var(--grid);border-radius:10px;padding:8px 12px}.box b{font-size:14px}.box div{font-size:12px;color:var(--ink2)}
+.arr{margin:2px 0 2px 13px;color:var(--mut);font-size:14px;line-height:1}
+.tagu{display:inline-block;font-size:11px;padding:0 6px;border-radius:4px;margin-right:4px;color:#fff}.u{background:var(--aqua)}.a{background:var(--blue)}.s{background:var(--orange)}
+.mock{border:1.5px solid var(--ink2);border-radius:12px;padding:12px;max-width:390px;margin:8px auto;background:var(--bg)}
+.ph{border:1.5px dashed var(--mut);border-radius:8px;padding:8px 10px;margin:6px 0;color:var(--mut);font-size:12px}
+.btn{display:block;text-align:center;background:var(--blue);color:#fff;border-radius:8px;padding:8px;margin:6px 0;font-size:13px}
+.bar{height:14px;border-radius:3px;margin:6px 0}
+.blk{border:1.5px dashed var(--mut);border-radius:8px;padding:6px 10px;margin:6px 0;font-size:12px;color:var(--ink2)}
+.foot{text-align:center;color:var(--mut);font-size:12px;margin:24px 0 40px}.by{font-size:15px;color:var(--ink);font-weight:600;margin-bottom:8px}.pri{font:inherit;border:0;border-radius:8px;background:var(--blue);color:#fff;padding:9px 18px}
+</style></head><body><div class='wrap'>
+<div class='sub'>v0.1 草稿 · 线框图 · 模块 10 review-mining · 2026-11-20</div>
+<h1>差评和问大家挖卖点：流程和页面线框</h1>
+<div class='sub'>图例：<span class='tagu u'>用户</span>用户要做　<span class='tagu a'>Agent</span>Agent 做　<span class='tagu s'>停</span>必须停下交给用户</div>
+<div class='card'><h2>一、整体流程</h2>
+<div class='step'><div class='num'>1</div><div class='box'><b>输入链接</b><div><span class='tagu u'>用户</span>粘贴一条商品链接，选平台；自己登录浏览器</div></div></div><div class='arr'>↓</div>
+<div class='step'><div class='num'>2</div><div class='box'><b>先出计划</b><div><span class='tagu a'>Agent</span>说明取什么、多久、出什么报告；<span class='tagu u'>用户</span>确认</div></div></div><div class='arr'>↓</div>
+<div class='step'><div class='num'>3</div><div class='box'><b>取数</b><div><span class='tagu a'>Agent</span>评价和问大家滚动到底，分批、放慢；出现验证码<span class='tagu s'>停</span>用户自己通过</div></div></div><div class='arr'>↓</div>
+<div class='step'><div class='num'>4</div><div class='box'><b>存档和清洗</b><div><span class='tagu a'>Agent</span>只留编号；标出重复文案、占位好评、空内容；规格名归并</div></div></div><div class='arr'>↓</div>
+<div class='step'><div class='num'>5</div><div class='box'><b>分类</b><div><span class='tagu a'>Agent</span>逐条读正文判断五类和差评主题；<span class='tagu u'>用户</span>核对 20 到 30 条抽样</div></div></div><div class='arr'>↓</div>
+<div class='step'><div class='num'>6</div><div class='box'><b>统计和找矛盾</b><div><span class='tagu a'>Agent</span>程序算占比；评价和问大家说法不一致的列成表</div></div></div><div class='arr'>↓</div>
+<div class='step'><div class='num'>7</div><div class='box'><b>HTML 报告</b><div><span class='tagu a'>Agent</span>占比图为主，每张图可分享，页脚署名和转发按钮</div></div></div><div class='arr'>↓</div>
+<div class='step'><div class='num'>8</div><div class='box'><b>行动包和交接卡</b><div><span class='tagu a'>Agent</span>对照自家商品档案：可直接用、给你看的说明、待补；写交接卡</div></div></div></div>
+<div class='card'><h2>二、用户看到的第一屏（引导）</h2><div class='sub'>只是线框，不是真实界面</div><div class='mock'>
+<b>差评和问大家挖卖点</b><div class='sub'>填一条商品链接，我来取评价和问大家，出一份分析报告</div>
+<div class='ph'>粘贴商品链接（自家或竞品都行）</div><div class='ph'>平台：天猫 / 淘宝 / 抖店 / 拼多多</div>
+<div class='ph'>提示：需要你在浏览器里先登录；出现验证码我会停下等你</div><div class='btn'>开始（先给你看计划）</div></div></div>
+<div class='card'><h2>三、报告页线框（手机宽）</h2><div class='mock'>
+<div class='sub'>标签 · 版本 · 商品 id · 取数日期</div><b>标题</b>
+<div class='blk'>指标卡 × 5：条数 / 差评率 / 带图率 / 追评差评率 / 问大家</div>
+<div class='blk'>结论和下一步（先做 / 本周 / 观察）</div>
+<div class='bar' style='background:var(--blue);width:78%'></div><div class='bar' style='background:var(--yellow);width:30%'></div><div class='bar' style='background:var(--orange);width:12%'></div>
+<div class='blk'>占比图：好评差评 · 带图不带图 · 首评追评 · 规格及各规格差评率 · 月份</div>
+<div class='blk'>买家夸什么 / 骂什么 / 问大家主题</div>
+<div class='blk'>矛盾点表 · 对我们的启示 · 数据说明和口径</div>
+<div class='foot' style='margin:10px 0'><div class='by'>skill制作by路飞的AI运营笔记</div><div class='btn'>转发这个 skill</div><div class='sub'>版本 · 更新记录 · 意见入口</div></div></div></div>
+<div class='foot'><div class='by'>skill制作by路飞的AI运营笔记</div><button class='pri' onclick='share(this)'>转发这个 skill</button></div>
+</div><script>
+function share(b){var u=location.href,t='差评挖卖点 skill · 路飞的AI运营笔记';if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else if(navigator.clipboard){navigator.clipboard.writeText(t+' '+u).then(function(){b.textContent='链接已复制，去转发吧';});}else{prompt('复制这个链接转发',u);}}
+</script></body></html>
