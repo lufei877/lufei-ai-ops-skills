@@ -123,7 +123,7 @@ for r in R:
         cnt[t].append(r['n'])
 stats['exact_dup_groups'] = [{'text': t[:24], 'n': v} for t, v in cnt.items() if len(v) > 1]
 
-lab = {'source': d['source'], 'fetched': d['fetched'], 'method': '逐条阅读正文（含追评）由人工判断，不是平台星级；规则见 SKILL 的好评差评判断标准',
+lab = {'source': d['source'], 'fetched': d['fetched'], 'method': '逐条阅读正文（含追评）由 Agent 判断，不是平台星级；规则见 SKILL 的好评差评判断标准',
        'labels': {str(r['n']): r['label'] for r in R}, 'topics': TOPICS}
 json.dump(lab, open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(json.dumps(stats, ensure_ascii=False, indent=1))
