@@ -27,7 +27,7 @@ description: "电商运营 Skill 合集入口：先建店铺档案，再根据�
 | “设计商品列表、订单表格、投放计划这类业务界面” | `modules/08-business-ui/` |
 | “设计 Windows 桌面运营软件的 UI、任务队列和数据边界” | `modules/09-desktop-operations-architecture/` |
 | “给你一个商品链接，帮我看评价”“帮我从差评里挖卖点”“买家最担心什么”“问大家怎么用” | `modules/10-review-mining/` |
-| “照这套图给我做一套”“复刻这套主图”“把参考图里的商品换成我的”“套图复刻” | `modules/13-set-image-rebuild/` |
+| “照这个链接给我做一套图”“复刻这个主图和详情页”“把参考图里的商品换成我的”“套图复刻” | `modules/13-set-image-rebuild/` |
 | “我不知道该用哪个”或需求同时跨多个模块 | 先给 2～4 个候选，让用户选择 |
 
 ## 执行约定
