@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>示例商品 套图对照（示例数据）</title>
+<style>
+:root{--bg:#faf8f5;--card:#fff;--ink:#222;--sub:#6b6b6b;--line:#e8e2da;--ok:#1a7f4b;--warn:#b26a00;--bad:#c0392b;--ac:#e8590c}
+@media (prefers-color-scheme:dark){:root{--bg:#161616;--card:#1f1f1f;--ink:#eee;--sub:#a0a0a0;--line:#333;--ok:#4cc38a;--warn:#f0a840;--bad:#ef6b5e;--ac:#ff8a4c}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:16px}
+h1{font-size:20px;margin:8px 0}.tag{display:inline-block;padding:1px 8px;border:1px solid var(--ac);color:var(--ac);border-radius:10px;font-size:12px;margin-left:6px}
+.sum{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 20px}.sum div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;min-width:100px}
+.sum b{display:block;font-size:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:16px}
+.imgs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+figure{margin:0}figure img{width:100%;border-radius:8px;display:block}figcaption{font-size:13px;color:var(--sub);margin-top:4px}
+table{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px}td,th{border-top:1px solid var(--line);padding:6px 4px;text-align:left;vertical-align:top}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+details{margin-top:10px;color:var(--sub);font-size:13px}pre{white-space:pre-wrap;word-break:break-all}
+footer{text-align:center;color:var(--sub);font-size:12px;padding:20px 0}
+</style></head><body><main>
+<h1>示例商品 · 套图对照<span class="tag">示例数据</span></h1>
+<div class="sum"><div><b>0</b>通过</div><div><b class="warn">1</b>带偏差接受</div><div><b>0</b>未通过</div><div><b>1/5</b>已做张数</div></div>
+<div class="card"><b>主图 2</b>　结论：<span class="warn">带偏差接受</span>（商品占比约 7/10，比设计卡的 3/5 大）
+<div class="imgs">
+<figure><img src="图/商品-示例电水壶.jpg" alt="商品实拍"><figcaption>商品实拍（CC0 图库图）</figcaption></figure>
+<figure><img src="图/主图2-v1.jpg" alt="第1版"><figcaption>第 1 版：未通过（水位刻度和胶囊写成 1.5L，商品占比约 2/3）</figcaption></figure>
+<figure><img src="图/主图2-v2.jpg" alt="第2版"><figcaption>第 2 版：带偏差接受</figcaption></figure></div>
+<table><tr><th>检查项</th><th>第 2 版</th></tr>
+<tr><td>文字块数量、类型、位置</td><td class="ok">✅ 3 个，位置对</td></tr>
+<tr><td>文字内容</td><td class="ok">✅ 逐字对，数字 1.7L 与档案、实拍一致</td></tr>
+<tr><td>商品一致</td><td class="ok">✅ 水位窗刻度、指示灯、把手一致</td></tr>
+<tr><td>商品占比</td><td class="warn">✏️ 约 7/10，没变小，仍大于 3/5</td></tr>
+<tr><td>手机可读</td><td class="ok">✅</td></tr></table>
+<details><summary>实际提示词（写法 B，第 2 版）</summary><pre>保持这个商品的外形、颜色、包装和标签完全不变，包括侧面水位窗里的刻度字样（最上面一格写的是 1.7 MAX，不要改成别的数字）。画面比例1:1。分区：左侧三分之二放商品和场景，右侧三分之一放文字。商品位于正中偏左，占画面高度的百分之六十左右……（完整原文存 图/过程/）</pre></details></div>
+<footer>路飞的AI运营笔记</footer></main></body></html>

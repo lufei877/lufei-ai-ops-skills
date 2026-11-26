@@ -19,6 +19,7 @@ WorkBuddy、Claude Code、Codex 都能用。现在只需安装一个 `ecom-ops-c
 | 08 | [业务 UI](ecom-ops-collection/modules/08-business-ui) | 设计商品列表、订单表格、投放计划和运营工作台 | 想自己做电商软件的 |
 | 09 | [Windows 桌面运营软件架构](ecom-ops-collection/modules/09-desktop-operations-architecture) | 划分 UI、service、worker、队列、数据和迁移边界 | 想自己做电商软件的，进阶 |
 | 10 | [差评和问大家挖卖点](ecom-ops-collection/modules/10-review-mining) | 填一条商品链接，取评价和问大家，出占比图报告，看买家夸什么、骂什么、问什么 | 要看竞品或自家评价、找卖点和避坑点的 |
+| 13 | [套图复刻](ecom-ops-collection/modules/13-set-image-rebuild) | 拿一套参考图，换成自己的商品和文案，版式一致、场景重做，逐张检查返修 | 要做主图、SKU 图、详情图整套图的 |
 
 ## 怎么装
 
